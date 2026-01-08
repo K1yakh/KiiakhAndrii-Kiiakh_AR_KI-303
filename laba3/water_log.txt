@@ -1,0 +1,6 @@
+Added 100 plants. Total: 600
+Added 200 animals. Total: 1700
+Salinity changed to: 18.5 PSU for Black Sea
+A storm occurred in Black Sea. Ecosystem is affected.
+Added -60 plants. Total: 540
+Added -170 animals. Total: 1530
