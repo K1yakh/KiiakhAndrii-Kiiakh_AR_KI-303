@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module Solution</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">Solution</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:d%3A%5Cjava%20labu%5C%D0%BB%D0%B0%D0%B1%D0%B0%207%5Csolution.py">d:\java labu\лаба 7\solution.py</a></td></tr></table>
+    <p><span class="code">Програма&nbsp;генерує&nbsp;квадратну&nbsp;матрицю&nbsp;за&nbsp;заданим&nbsp;шаблоном.<br>
+Варіант:&nbsp;Заповнення&nbsp;верхнього&nbsp;лівого&nbsp;та&nbsp;нижнього&nbsp;правого&nbsp;квадрантів&nbsp;символом.<br>
+&nbsp;<br>
+Введення:&nbsp;розмірність&nbsp;матриці&nbsp;(n)&nbsp;та&nbsp;символ-заповнювач.<br>
+Виведення:&nbsp;матриця&nbsp;у&nbsp;консоль.<br>
+&nbsp;<br>
+@author&nbsp;User<br>
+@version&nbsp;1.0<br>
+@since&nbsp;version&nbsp;1.0</span></p>
+<p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-matrixSquare"><strong>matrixSquare</strong></a>(n: int, symbol: str) -&gt; List[List[Optional[str]]]</dt><dd><span class="code">Створює&nbsp;матрицю&nbsp;розміром&nbsp;n*n&nbsp;та&nbsp;заповнює&nbsp;квадранти&nbsp;символом.<br>
+&nbsp;<br>
+Алгоритм&nbsp;перевіряє&nbsp;координати&nbsp;(i,&nbsp;j)&nbsp;відносно&nbsp;центру&nbsp;матриці.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;(int):&nbsp;Розмірність&nbsp;квадратної&nbsp;матриці&nbsp;(кількість&nbsp;рядків/стовпців).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;symbol&nbsp;(str):&nbsp;Символ&nbsp;для&nbsp;заповнення&nbsp;областей.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;List[List[str]]:&nbsp;Згенерована&nbsp;матриця.</span></dd></dl>
+ <dl><dt><a name="-printMatrix"><strong>printMatrix</strong></a>(n: int, matrix: List[List[Optional[str]]]) -&gt; None</dt><dd><span class="code">Виводить&nbsp;матрицю&nbsp;на&nbsp;екран,&nbsp;замінюючи&nbsp;None&nbsp;на&nbsp;пробіли.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;(int):&nbsp;Розмірність&nbsp;(не&nbsp;використовується&nbsp;для&nbsp;ітерації,&nbsp;але&nbsp;передається).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;matrix&nbsp;(List[List[str]]):&nbsp;Матриця&nbsp;для&nbsp;друку.</span></dd></dl>
+</td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>List</strong> = typing.List<br>
+<strong>Optional</strong> = typing.Optional<br>
+<strong>Union</strong> = typing.Union</td></tr></table>
+</body></html>
